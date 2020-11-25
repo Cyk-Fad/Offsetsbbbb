@@ -4,8 +4,12 @@
 namespace offsets
 {
 //signatures
+constexpr ::std::ptrdiff_t m_fFirstHook = 0xB14B0
+constexpr ::std::ptrdiff_t m_fSecondHook = 0xBF140
 constexpr ptrdiff_t fakeLevel = 0x51A4B04;
-constexpr ptrdiff_t fakeRank = 0xCEEF0001;
+constexpr ptrdiff_t fakeRank = 0xCBE60001;
+constexpr ptrdiff_t fakeLevel = 0x51A4B04;
+constexpr ptrdiff_t fakeRank = 0xCBE60001;
 constexpr ptrdiff_t dwClientState = 0x58DFE4;
 constexpr ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 constexpr ptrdiff_t dwClientState_IsHLTV = 0x4D48;
@@ -45,7 +49,7 @@ constexpr ptrdiff_t dwSetClanTag = 0x8A0E0;
 constexpr ptrdiff_t dwViewMatrix = 0x4D44CC4;
 constexpr ptrdiff_t dwWeaponTable = 0x51A543C;
 constexpr ptrdiff_t dwWeaponTableIndex = 0x325C;
-constexpr ptrdiff_t dwYawPtr = 0xCEEF0002;
+constexpr ptrdiff_t dwYawPtr = 0xCBE60002;
 constexpr ptrdiff_t dwZoomSensitivityRatioPtr = 0xD497B8;
 constexpr ptrdiff_t dwbSendPackets = 0xD6E5A;
 constexpr ptrdiff_t dwppDirect3DDevice9 = 0xA7050;
@@ -62,7 +66,7 @@ constexpr ptrdiff_t is_c4_owner = 0x3AE4D0;
 constexpr ptrdiff_t force_update_spectator_glow = 0x3A1A32;
 constexpr ptrdiff_t anim_overlays = 0x2980;
 constexpr ptrdiff_t m_flSpawnTime = 0xA370;
-constexpr ptrdiff_t find_hud_element = 0x313C2860;
+constexpr ptrdiff_t find_hud_element = 0x34452860;
 
 //netvars
 constexpr ptrdiff_t m_ArmorValue = 0xB378;
